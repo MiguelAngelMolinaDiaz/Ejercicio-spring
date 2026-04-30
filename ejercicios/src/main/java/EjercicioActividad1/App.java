@@ -29,7 +29,7 @@ public class App {
 
         tamal.setRegion("Tolima");
         tamal.setPrecio(5000.0f);
-        tamal.setTamaño("Grande");
+        tamal.setTamanio("Grande");
         tamal.setPeso(0.8f);
         tamal.setColor("Verde");
 
