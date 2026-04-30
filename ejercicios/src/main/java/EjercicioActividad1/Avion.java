@@ -2,10 +2,10 @@ package EjercicioActividad1;
 
 public class Avion {
     private String color;
-    private float altura;
-    private int edad;
-    private float diametro;
-    private String tipo;
+    private float precio;
+    private int turbinas;
+    private int capacidad;
+    private String marca;
 
     public Avion() {
     }
@@ -18,36 +18,35 @@ public class Avion {
         this.color = color;
     }
 
-    public float getAltura() {
-        return altura;
+    public float getPrecio() {
+        return precio;
     }
 
-    public void setAltura(float altura) {
-        this.altura = altura;
+    public void setPrecio(float precio) {
+        this.precio = precio;
     }
 
-    public int getEdad() {
-        return edad;
+    public int getTurbinas() {
+        return turbinas;
     }
 
-    public void setEdad(int edad) {
-        this.edad = edad;
+    public void setTurbinas(int turbinas) {
+        this.turbinas = turbinas;
     }
 
-    public float getDiametro() {
-        return diametro;
+    public int getCapacidad() {
+        return capacidad;
     }
 
-    public void setDiametro(float diametro) {
-        this.diametro = diametro;
+    public void setCapacidad(int capacidad) {
+        this.capacidad = capacidad;
     }
 
-    public String getTipo() {
-        return tipo;
+    public String getMarca() {
+        return marca;
     }
 
-    public void setTipo(String tipo) {
-        this.tipo = tipo;
+    public void setMarca(String marca) {
+        this.marca = marca;
     }
 }
-
