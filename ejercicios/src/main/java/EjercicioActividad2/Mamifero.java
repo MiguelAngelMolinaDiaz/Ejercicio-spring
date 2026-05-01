@@ -1,8 +1,7 @@
 package EjercicioActividad2;
 
-public class Mamifero extends Animal {
-    // Relación Mamífero -> Vertebrado
-    private Vertebrado columna; 
+public abstract class Mamifero extends Animal {
+    private Vertebrado columna; // Relación Mamífero -> Vertebrado
 
     public void nacer() {}
     public void comer() {}

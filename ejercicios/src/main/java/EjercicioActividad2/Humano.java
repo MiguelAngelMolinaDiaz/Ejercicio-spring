@@ -1,9 +1,7 @@
 package EjercicioActividad2;
 
 public class Humano extends Mamifero {
-    
-    @Override
-    public void desplazarse() {
-        // El humano se desplaza de forma bípeda
-    }
+    public void desplazarse() {}
 }
+class Hombre extends Humano {}
+class Mujer extends Humano { public void criar() {} }

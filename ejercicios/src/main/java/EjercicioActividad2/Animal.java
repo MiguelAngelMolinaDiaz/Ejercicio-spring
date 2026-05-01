@@ -1,8 +1,8 @@
 package EjercicioActividad2;
 
-public class Animal {
+public abstract class Animal {
     public void respirar() {}
-    public void morir() {}
+    public void morir() { System.out.println("Ha muerto."); }
     public void comer() {}
     public void desplazarse() {}
     public void reproducirse() {}
