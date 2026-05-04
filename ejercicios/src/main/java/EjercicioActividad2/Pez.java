@@ -1,18 +1,10 @@
 package EjercicioActividad2;
 
 public abstract class Pez extends Animal {
+    @Override
     public void desplazarse() {}
+    @Override
     public void reproducirse() {}
+    @Override
     public void nacer() {}
 }
-// Especies
-class Atun extends Pez { public void comer() {} }
-class AtunMacho extends Atun {}
-class AtunHembra extends Atun { public void criar() {} }
-
-class Tiburon extends Pez { 
-    public void comer() {} 
-    public void nacer() {} 
-}
-class TiburonMacho extends Tiburon {}
-class TiburonHembra extends Tiburon { public void criar() {} }

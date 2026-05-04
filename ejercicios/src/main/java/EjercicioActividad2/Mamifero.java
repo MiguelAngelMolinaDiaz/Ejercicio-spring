@@ -1,9 +1,12 @@
 package EjercicioActividad2;
 
 public abstract class Mamifero extends Animal {
-    private Vertebrado columna; // Relación Mamífero -> Vertebrado
+    private Vertebrado columna; 
 
+    @Override
     public void nacer() {}
+    @Override
     public void comer() {}
+    @Override
     public void reproducirse() {}
 }

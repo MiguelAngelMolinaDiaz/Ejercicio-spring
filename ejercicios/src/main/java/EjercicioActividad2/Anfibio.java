@@ -1,16 +1,12 @@
 package EjercicioActividad2;
 
 public abstract class Anfibio extends Animal {
+    @Override
     public void comer() {}
+    @Override
     public void desplazarse() {}
+    @Override
     public void reproducirse() {}
+    @Override
     public void nacer() {}
 }
-// Especies
-class Sapo extends Anfibio {}
-class SapoMacho extends Sapo {}
-class SapoHembra extends Sapo { public void criar() {} }
-
-class Salamandra extends Anfibio {}
-class SalamandraMacho extends Salamandra {}
-class SalamandraHembra extends Salamandra { public void criar() {} }
