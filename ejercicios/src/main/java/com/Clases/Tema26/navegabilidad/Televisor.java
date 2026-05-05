@@ -1,6 +1,6 @@
 package com.Clases.Tema26.navegabilidad;
 
-public class Television {
+public class Televisor {
     private ControlRemoto controlRemoto;
     private Decodificador decodificador;
 }
